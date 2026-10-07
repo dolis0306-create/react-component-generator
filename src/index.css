@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --background: #e9e0ff;
+  --foreground: #1b1243;
+}
+
+body {
+  font-family:
+    'Pretendard Variable', Pretendard, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: var(--background);
+  background-image: radial-gradient(rgba(27, 18, 67, 0.16) 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+  color: var(--foreground);
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #ff5ca8;
+  color: #ffffff;
+}
